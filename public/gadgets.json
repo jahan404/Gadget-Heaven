@@ -1,0 +1,280 @@
+[
+    {
+      "product_id": 1,
+      "product_title": "Apple iPhone 15 Pro Max",
+      "product_image": "https://i.ibb.co.com/SXJQjY9x/1.jpg",
+      "category": "Phones",
+      "price": 1299,
+      "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
+      "specification": [
+        "6.7-inch Super Retina XDR display",
+        "A17 Bionic chip",
+        "Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultrawide)",
+        "LiDAR Scanner",
+        "Up to 2TB storage"
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "warranty": "2 year"
+    },
+    {
+        "product_id": 2,
+        "product_title": "Garmin Venu 2",
+        "product_image": "https://i.ibb.co.com/v6yVXqj9/11.jpg",
+        "category": "Smart Watches",
+        "price": 349,
+        "description": "Fitness tracking with AMOLED display and GPS.",
+        "specification": [
+          "5-inch display",
+          "Custom OS",
+          "32GB storage",
+          "4GB RAM",
+          "Water Resistant"
+        ],
+        "availability": true,
+        "rating": 4.6,
+        "warranty": "2 year"
+      },
+    {
+      "product_id": 3,
+      "product_title": "Dell XPS 15",
+      "product_image": "https://i.ibb.co.com/DHs9gTJt/3.jpg",
+      "category": "Laptops",
+      "price": 1450,
+      "description": "Sleek and powerful device suitable for all tasks.",
+      "specification": [
+        "15-inch display",
+        "Intel i9 processor",
+        "1024GB storage",
+        "32GB RAM",
+        "Fingerprint Sensor"
+      ],
+      "availability": false,
+      "rating": 4.6,
+      "warranty": "3 year"
+    },
+    {
+      "product_id": 4,
+      "product_title": "Sony WH-1000XM5 Headphones",
+      "product_image": "https://i.ibb.co.com/1fTtNWck/4.jpg",
+      "category": "Accessories",
+      "price": 399,
+      "description": "Exceptional performance and sound quality in a compact form.",
+      "specification": [
+        "7-inch display",
+        "A16 Bionic chip",
+        "512GB storage",
+        "16GB RAM",
+        "Water Resistant"
+      ],
+      "availability": true,
+      "rating": 4.9,
+      "warranty": "1 year"
+    },
+    {
+      "product_id": 5,
+      "product_title": "Apple Watch Series 9",
+      "product_image": "https://i.ibb.co.com/SwcZDmv7/5.jpg",
+      "category": "Smart Watches",
+      "price": 599,
+      "description": "Next-generation wearable with improved battery and sensors.",
+      "specification": [
+        "6-inch display",
+        "M2 chip",
+        "256GB storage",
+        "8GB RAM",
+        "Face ID"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "warranty": "2 year"
+    },
+    {
+      "product_id": 6,
+      "product_title": "MacBook Pro 16 M3",
+      "product_image": "https://i.ibb.co.com/gMFjrK4S/6.jpg",
+      "category": "MacBook",
+      "price": 1899,
+      "description": "Perfect combination of power, portability, and performance.",
+      "specification": [
+        "16-inch display",
+        "M2 chip",
+        "2048GB storage",
+        "64GB RAM",
+        "Face ID"
+      ],
+      "availability": true,
+      "rating": 4.9,
+      "warranty": "3 year"
+    },
+    {
+      "product_id": 7,
+      "product_title": "iPhone 14",
+      "product_image": "https://i.ibb.co.com/ccQGTfs5/7.jpg",
+      "category": "iPhone",
+      "price": 999,
+      "description": "Premium build and camera with all-day battery life.",
+      "specification": [
+        "6.1-inch display",
+        "A16 Bionic chip",
+        "512GB storage",
+        "8GB RAM",
+        "Face ID"
+      ],
+      "availability": true,
+      "rating": 4.5,
+      "warranty": "2 year"
+    },
+    {
+      "product_id": 8,
+      "product_title": "Google Pixel 8 Pro",
+      "product_image": "https://i.ibb.co.com/Xkkx0xfP/8.jpg",
+      "category": "Phones",
+      "price": 899,
+      "description": "A high-end device packed with features for professionals.",
+      "specification": [
+        "6.8-inch display",
+        "A17 Bionic chip",
+        "1024GB storage",
+        "16GB RAM",
+        "Water Resistant"
+      ],
+      "availability": true,
+      "rating": 4.3,
+      "warranty": "1 year"
+    },
+    {
+      "product_id": 9,
+      "product_title": "HP Spectre x360",
+      "product_image": "https://i.ibb.co.com/XZrDnMVH/9.jpg",
+      "category": "Laptops",
+      "price": 1349,
+      "description": "Convertible design with top performance and portability.",
+      "specification": [
+        "14-inch display",
+        "Intel i9 processor",
+        "1024GB storage",
+        "16GB RAM",
+        "Fingerprint Sensor"
+      ],
+      "availability": true,
+      "rating": 4.4,
+      "warranty": "2 year"
+    },
+    {
+      "product_id": 10,
+      "product_title": "Anker PowerCore 20000",
+      "product_image": "https://i.ibb.co.com/b5P2kVxm/10.jpg",
+      "category": "Accessories",
+      "price": 79,
+      "description": "Massive power on the go, charge all your devices.",
+      "specification": [
+        "No display",
+        "N/A chip",
+        "20000mAh capacity",
+        "Fast charging",
+        "Water Resistant"
+      ],
+      "availability": true,
+      "rating": 4.2,
+      "warranty": "1 year"
+    },
+    
+
+
+    {
+        "product_id": 11,
+        "product_title": "Samsung Galaxy S24 Ultra",
+        "product_image": "https://i.ibb.co.com/ht7S7pL/2.jpg",
+        "category": "Accessories",
+        "price": 667,
+        "description": "Next-generation wearable with improved battery and sensors.",
+        "specification": [
+          "9-inch display",
+          "A16 Bionic chip",
+          "1270GB storage",
+          "42GB RAM",
+          "Face ID"
+        ],
+        "availability": true,
+        "rating": 5.0,
+        "warranty": "1 year"
+      },
+
+
+
+    
+    {
+      "product_id": 12,
+      "product_title": "iPhone SE 2024",
+      "product_image": "https://i.ibb.co.com/C51h61Qk/12.jpg",
+      "category": "iPhone",
+      "price": 599,
+      "description": "Compact and powerful with modern performance.",
+      "specification": [
+        "4.7-inch display",
+        "A16 Bionic chip",
+        "256GB storage",
+        "6GB RAM",
+        "Fingerprint Sensor"
+      ],
+      "availability": true,
+      "rating": 4.1,
+      "warranty": "1 year"
+    },
+    {
+      "product_id": 13,
+      "product_title": "MacBook Air M2",
+      "product_image": "https://i.ibb.co.com/BHwKzYcj/13.jpg",
+      "category": "MacBook",
+      "price": 1099,
+      "description": "Ultralight laptop with great battery and display.",
+      "specification": [
+        "13-inch display",
+        "M2 chip",
+        "512GB storage",
+        "16GB RAM",
+        "Face ID"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "warranty": "2 year"
+    },
+    {
+      "product_id": 14,
+      "product_title": "Samsung Galaxy Buds 2",
+      "product_image": "https://i.ibb.co.com/h1XRV24p/14.jpg",
+      "category": "Accessories",
+      "price": 149,
+      "description": "Wireless earbuds with great sound and battery life.",
+      "specification": [
+        "No display",
+        "N/A chip",
+        "32GB internal memory",
+        "5-hour battery life",
+        "Water Resistant"
+      ],
+      "availability": true,
+      "rating": 4.3,
+      "warranty": "1 year"
+    },
+    {
+      "product_id": 15,
+      "product_title": "Fossil Gen 6 Smartwatch",
+      "product_image": "https://i.ibb.co.com/9khTW7Hn/15.jpg",
+      "category": "Smart Watches",
+      "price": 299,
+      "description": "Stylish smartwatch with fitness tracking and Google Wear OS.",
+      "specification": [
+        "1.4-inch AMOLED display",
+        "Snapdragon Wear processor",
+        "16GB storage",
+        "1GB RAM",
+        "Water Resistant"
+      ],
+      "availability": true,
+      "rating": 4.4,
+      "warranty": "2 year"
+    }
+  ]
+  

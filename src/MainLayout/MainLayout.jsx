@@ -2,13 +2,14 @@ import React from 'react';
 import Footer from '../Components/Footer';
 import { Outlet } from 'react-router-dom';
 import Banner from '../Components/Banner';
+import Navbar from '../Components/Navbar';
 
 const MainLayout = () => {
     return (
         <div className='font-title'>
-        {/* Banner */}
-        <Banner></Banner>
-
+        {/* Navbar */}
+        <Navbar></Navbar>
+         
         {/* dynamic components */}
         <div className='min-h-[calc(100vh-285px)]'>
             <Outlet></Outlet>
