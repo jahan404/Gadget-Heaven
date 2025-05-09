@@ -5,7 +5,7 @@ const Statistics = () => {
     const categoriesTabData = useLoaderData()
     console.log(categoriesTabData)
     return (
-        <div>
+        <div  className='min-h-[calc(100vh-285px)]'>
             
         </div>
     );

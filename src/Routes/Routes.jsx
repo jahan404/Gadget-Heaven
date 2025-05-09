@@ -5,14 +5,18 @@ import MainLayout from "../MainLayout/MainLayout";
 import Home from "../Pages/Home";
 import Statistics from "../Pages/Statistics";
 import Dashboard from "../Pages/Dashboard";
-import Sidebar from "../Components/Sidebar";
 import GadgetCards from "../Components/GadgetCards";
+import GadgetDetailPage from "../Pages/GadgetDetailPage";
+import ErrorElement from "../Pages/ErrorElement";
+import CartItems from "../Components/CartItems";
+import WIshlistItems from "../Components/WIshlistItems";
 
 
 const routes = createBrowserRouter([
     {
       path: "/",
       element: <MainLayout></MainLayout>,
+      errorElement : <ErrorElement></ErrorElement>,
       children: [
       {
         path: "/",
@@ -37,7 +41,27 @@ const routes = createBrowserRouter([
       },
       {
         path: "/dashboard",
-        element: <Dashboard></Dashboard>
+        element: <Dashboard></Dashboard>,
+
+        children : [
+          {
+            path: "/dashboard",
+            element : <CartItems></CartItems>,
+          },
+          {
+             path: "/dashboard/cartItems",
+             element : <CartItems></CartItems>,
+          },
+          {
+             path: "/dashboard/wishlistItems",
+             element : <WIshlistItems></WIshlistItems>,
+          },
+        ],
+      },
+      {
+        path: "/detailPage/:id",
+        element: <GadgetDetailPage></GadgetDetailPage>,
+        loader: ()=>fetch('../gadgets.json'),
       },
       ]
     }

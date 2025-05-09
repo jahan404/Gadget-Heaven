@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink, useLocation } from 'react-router-dom';
+import { NavLink, useLocation, Link } from 'react-router-dom';
 import { BsCart2 } from "react-icons/bs";
 import { FiHeart } from "react-icons/fi";
 
@@ -41,15 +41,21 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className="navbar-end flex items-center gap-3">
-        <div className='bg-white rounded-full p-3 text-black border'>
-        <BsCart2 />
-        </div>
+      <div className="navbar-end flex items-center gap-3">
 
-      <div className='bg-white rounded-full p-3 text-black border'>
+      <Link to="/dashboard/cartItems">
+      <div className='bg-white rounded-full p-3 text-black border btn btn-circle'>
+        <BsCart2 />
+      </div>
+      </Link>
+
+      <Link to="/dashboard/wishlistItems">
+      <div className='bg-white btn btn-circle rounded-full p-3 text-black border'>
         <FiHeart />
       </div>
-        </div>
+      </Link>
+      </div>
+      
       </div>
     );
 };

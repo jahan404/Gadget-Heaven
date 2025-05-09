@@ -102,7 +102,7 @@
         "2048GB storage",
         "64GB RAM",
         "Face ID"
-      ],
+      ], 
       "availability": true,
       "rating": 4.9,
       "warranty": "3 year"
@@ -186,7 +186,7 @@
         "product_id": 11,
         "product_title": "Samsung Galaxy S24 Ultra",
         "product_image": "https://i.ibb.co.com/ht7S7pL/2.jpg",
-        "category": "Accessories",
+        "category": "Phones",
         "price": 667,
         "description": "Next-generation wearable with improved battery and sensors.",
         "specification": [
@@ -254,7 +254,7 @@
         "5-hour battery life",
         "Water Resistant"
       ],
-      "availability": true,
+      "availability": false,
       "rating": 4.3,
       "warranty": "1 year"
     },
@@ -275,6 +275,97 @@
       "availability": true,
       "rating": 4.4,
       "warranty": "2 year"
-    }
+    },
+      {
+        "product_id": 16,
+        "product_title": "Lenovo ThinkPad X1 Carbon Gen 11",
+        "product_image": "https://i.ibb.co.com/s94cyh1v/16.jpg",
+        "category": "Laptops",
+        "price": 1699,
+        "description": "Ultralight business laptop with premium build and performance.",
+        "specification": [
+          "14-inch UHD display",
+          "Intel i7 13th Gen",
+          "1024GB SSD",
+          "32GB RAM",
+          "Fingerprint Sensor"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "warranty": "3 year"
+      },
+      {
+        "product_id": 17,
+        "product_title": "ASUS ROG Zephyrus G14",
+        "product_image": "https://i.ibb.co.com/Cpn6QYv9/17.jpg",
+        "category": "Laptops",
+        "price": 1799,
+        "description": "Compact gaming laptop with powerful Ryzen processor and RTX GPU.",
+        "specification": [
+          "14-inch QHD display",
+          "AMD Ryzen 9",
+          "1000GB SSD",
+          "32GB RAM",
+          "Backlit Keyboard"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "warranty": "2 year"
+      },
+      {
+        "product_id": 18,
+        "product_title": "Acer Swift X",
+        "product_image": "https://i.ibb.co.com/67WWmdhc/18.jpg",
+        "category": "Laptops",
+        "price": 1099,
+        "description": "Portable laptop with dedicated GPU for creators.",
+        "specification": [
+          "14-inch FHD display",
+          "Intel i7 12th Gen",
+          "512GB SSD",
+          "16GB RAM",
+          "NVIDIA RTX 3050"
+        ],
+        "availability": true,
+        "rating": 4.5,
+        "warranty": "2 year"
+      },
+      {
+        "product_id": 19,
+        "product_title": "Microsoft Surface Laptop 5",
+        "product_image": "https://i.ibb.co.com/JFxxnjy1/19.jpg",
+        "category": "Laptops",
+        "price": 1299,
+        "description": "Elegant and lightweight laptop built for everyday productivity.",
+        "specification": [
+          "13.5-inch PixelSense display",
+          "Intel i5 12th Gen",
+          "512GB SSD",
+          "16GB RAM",
+          "Touchscreen"
+        ],
+        "availability": true,
+        "rating": 4.4,
+        "warranty": "2 year"
+      },
+      {
+        "product_id": 20,
+        "product_title": "Razer Blade 16",
+        "product_image": "https://i.ibb.co.com/FdwDQBx/Razer-anuncia-laptops-Blade-18-e-Blade-16-2024-com-monitor-OLED.jpg",
+        "category": "Laptops",
+        "price": 2599,
+        "description": "High-performance gaming laptop with immersive display.",
+        "specification": [
+          "16-inch UHD+ display",
+          "Intel i9 13th Gen",
+          "2000GB SSD",
+          "32GB RAM",
+          "NVIDIA RTX 4080"
+        ],
+        "availability": false,
+        "rating": 4.9,
+        "warranty": "3 year"
+      }
+    
   ]
   
