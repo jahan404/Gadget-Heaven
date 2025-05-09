@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
 
 const Dashboard = () => {
+    useEffect(() => {
+        document.title = "Gadget Heaven | Dashboard";
+      }, []);
     return (
         <div>
         <div className='bg-[#9538E2] w-11/12 mx-auto text-white text-center pt-14 pb-10 space-y-3'>

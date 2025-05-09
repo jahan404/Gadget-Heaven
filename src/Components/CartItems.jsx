@@ -7,11 +7,15 @@ import coinImage from '../assets/Group.png'
 import { TbShoppingCartOff } from "react-icons/tb";
 
 const CartItems = () => {
+    useEffect(() => {
+            document.title = "Gadget Heaven | Dashboard | Cart";
+          }, []);
+
     const [cartGadget,setCartGadget] = useState([]);
 
     const [count,setTotalCount] = useState(0)
  
-
+    
 
     useEffect(()=>{
     const data = getItemFromLocalStorage()

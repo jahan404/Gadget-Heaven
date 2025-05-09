@@ -25,7 +25,9 @@ const GadgetCards = () => {
     },[data,categoryName])
 
     
-    
+    useEffect(() => {
+        document.title = "Gadget Heaven";
+      }, []);
 
     return (
         <div>

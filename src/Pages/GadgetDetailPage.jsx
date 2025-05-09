@@ -7,6 +7,11 @@ import { addItemToLocalStorage } from '../Utils/Utils';
 import { addWISHEDItemToLocalStorage } from '../Utils/UtilsForWIshlist';
 
 const GadgetDetailPage = () => {
+    
+    useEffect(() => {
+            document.title = "Gadget Heaven | Product Detail";
+          }, []);
+
     const data = useLoaderData()
     const {id} = useParams()
 

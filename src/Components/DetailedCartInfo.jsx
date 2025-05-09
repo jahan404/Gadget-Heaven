@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { TiDelete } from "react-icons/ti";
 
 
 const DetailedCartInfo = ({gadgetDetail,handleDeleteCartItems})=> {
+
+    
     const {
         product_title,
         product_image,

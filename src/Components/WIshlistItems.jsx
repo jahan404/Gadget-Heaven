@@ -3,6 +3,9 @@ import { getWISHEDItemFromLocalStorage, removeWISHEDItemFromLocalStorage } from 
 import DetailedWIshlistItems from './DetailedWIshlistItems';
  
 const WIshlistItems = () => {
+    useEffect(() => {
+            document.title = "Gadget Heaven | Dashboard | Wishlist";
+          }, []);
 
     const [wishedItem,setWishedItem] = useState([])
 
