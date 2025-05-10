@@ -6,7 +6,7 @@ import { Outlet, useLoaderData } from 'react-router-dom';
 const Home = () => {
     const categoriesData = useLoaderData()
     
-    return (
+    return ( 
         <div>
         {/* Banner */}
         <Banner></Banner>

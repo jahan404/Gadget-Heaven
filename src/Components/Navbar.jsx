@@ -6,7 +6,7 @@ import { FiHeart } from "react-icons/fi";
 const Navbar = () => {
   const {pathname} = useLocation()
     return (
-        <div className={pathname === '/' ? 'navbar text-white bg-[#9538E2]  w-11/12 mx-auto px-6 pt-6 rounded-t-2xl mt-10 ' : 'navbar w-11/12 mx-auto text-[#9538E2] px-6 pt-6 rounded-t-2xl mt-10'}>
+        <div className={pathname === '/' ? 'navbar text-white bg-purple-900  w-11/12 mx-auto px-6 pt-6 rounded-t-2xl mt-10 ' : 'navbar w-11/12 mx-auto text-[#9538E2] px-6 pt-6 rounded-t-2xl mt-10'}>
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -31,7 +31,7 @@ const Navbar = () => {
               <li><NavLink to="/dashboard" className={({isActive})=>`${isActive ? 'bg-black text-white' : ''}`}>Dashboard</NavLink></li>
             </ul>
           </div>
-          <a className="font-bold text-2xl">Gadget Heaven</a>
+          <a className="font-bold text-2xl">Spark Gadgets</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 gap-5">

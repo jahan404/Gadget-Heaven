@@ -4,14 +4,14 @@ import {
 import MainLayout from "../MainLayout/MainLayout";
 import Home from "../Pages/Home";
 import Statistics from "../Pages/Statistics";
-import Dashboard from "../Pages/Dashboard";
+import Dashboard from "../Pages/Dashboard"; 
 import GadgetCards from "../Components/GadgetCards";
 import GadgetDetailPage from "../Pages/GadgetDetailPage";
 import ErrorElement from "../Pages/ErrorElement";
 import CartItems from "../Components/CartItems";
 import WIshlistItems from "../Components/WIshlistItems";
 
-
+ 
 const routes = createBrowserRouter([
     {
       path: "/",

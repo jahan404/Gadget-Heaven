@@ -6,7 +6,7 @@ const GadgetCards = () => {
     const data = useLoaderData()
     const {categoryName} = useParams()
     const {pathname} = useLocation()
-    console.log(pathname)
+    // console.log(pathname)
 
     // USE S T A T E S
     const [gadgetData,setGadgetData] = useState(data)
@@ -16,7 +16,7 @@ const GadgetCards = () => {
     useEffect(()=>{
         if(categoryName){
             const filteredData = [...data].filter(d=>d.category===categoryName)
-            console.log(filteredData)
+            // console.log(filteredData)
             setGadgetData(filteredData)
         }
         else{

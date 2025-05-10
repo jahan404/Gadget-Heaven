@@ -1,371 +1,778 @@
 [
-    {
-      "product_id": 1,
-      "product_title": "Apple iPhone 15 Pro Max",
-      "product_image": "https://i.ibb.co.com/SXJQjY9x/1.jpg",
-      "category": "Phones",
-      "price": 1299,
-      "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
-      "specification": [
-        "6.7-inch Super Retina XDR display",
-        "A17 Bionic chip",
-        "Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultrawide)",
-        "LiDAR Scanner",
-        "Up to 2TB storage"
-      ],
-      "availability": true,
-      "rating": 4.8,
-      "warranty": "2 year"
-    },
-    {
-        "product_id": 2,
-        "product_title": "Garmin Venu 2",
-        "product_image": "https://i.ibb.co.com/v6yVXqj9/11.jpg",
-        "category": "Smart Watches",
-        "price": 349,
-        "description": "Fitness tracking with AMOLED display and GPS.",
-        "specification": [
-          "5-inch display",
-          "Custom OS",
-          "32GB storage",
-          "4GB RAM",
-          "Water Resistant"
-        ],
-        "availability": true,
-        "rating": 4.6,
-        "warranty": "2 year"
-      },
-    {
-      "product_id": 3,
-      "product_title": "Dell XPS 15",
-      "product_image": "https://i.ibb.co.com/DHs9gTJt/3.jpg",
-      "category": "Laptops",
-      "price": 1450,
-      "description": "Sleek and powerful device suitable for all tasks.",
-      "specification": [
-        "15-inch display",
-        "Intel i9 processor",
-        "1024GB storage",
-        "32GB RAM",
-        "Fingerprint Sensor"
-      ],
-      "availability": false,
-      "rating": 4.6,
-      "warranty": "3 year"
-    },
-    {
-      "product_id": 4,
-      "product_title": "Sony WH-1000XM5 Headphones",
-      "product_image": "https://i.ibb.co.com/1fTtNWck/4.jpg",
-      "category": "Accessories",
-      "price": 399,
-      "description": "Exceptional performance and sound quality in a compact form.",
-      "specification": [
-        "7-inch display",
-        "A16 Bionic chip",
-        "512GB storage",
-        "16GB RAM",
-        "Water Resistant"
-      ],
-      "availability": true,
-      "rating": 4.9,
-      "warranty": "1 year"
-    },
-    {
-      "product_id": 5,
-      "product_title": "Apple Watch Series 9",
-      "product_image": "https://i.ibb.co.com/SwcZDmv7/5.jpg",
-      "category": "Smart Watches",
-      "price": 599,
-      "description": "Next-generation wearable with improved battery and sensors.",
-      "specification": [
-        "6-inch display",
-        "M2 chip",
-        "256GB storage",
-        "8GB RAM",
-        "Face ID"
-      ],
-      "availability": true,
-      "rating": 4.7,
-      "warranty": "2 year"
-    },
-    {
-      "product_id": 6,
-      "product_title": "MacBook Pro 16 M3",
-      "product_image": "https://i.ibb.co.com/gMFjrK4S/6.jpg",
-      "category": "MacBook",
-      "price": 1899,
-      "description": "Perfect combination of power, portability, and performance.",
-      "specification": [
-        "16-inch display",
-        "M2 chip",
-        "2048GB storage",
-        "64GB RAM",
-        "Face ID"
-      ], 
-      "availability": true,
-      "rating": 4.9,
-      "warranty": "3 year"
-    },
-    {
-      "product_id": 7,
-      "product_title": "iPhone 14",
-      "product_image": "https://i.ibb.co.com/ccQGTfs5/7.jpg",
-      "category": "iPhone",
-      "price": 999,
-      "description": "Premium build and camera with all-day battery life.",
-      "specification": [
-        "6.1-inch display",
-        "A16 Bionic chip",
-        "512GB storage",
-        "8GB RAM",
-        "Face ID"
-      ],
-      "availability": true,
-      "rating": 4.5,
-      "warranty": "2 year"
-    },
-    {
-      "product_id": 8,
-      "product_title": "Google Pixel 8 Pro",
-      "product_image": "https://i.ibb.co.com/Xkkx0xfP/8.jpg",
-      "category": "Phones",
-      "price": 899,
-      "description": "A high-end device packed with features for professionals.",
-      "specification": [
-        "6.8-inch display",
-        "A17 Bionic chip",
-        "1024GB storage",
-        "16GB RAM",
-        "Water Resistant"
-      ],
-      "availability": true,
-      "rating": 4.3,
-      "warranty": "1 year"
-    },
-    {
-      "product_id": 9,
-      "product_title": "HP Spectre x360",
-      "product_image": "https://i.ibb.co.com/XZrDnMVH/9.jpg",
-      "category": "Laptops",
-      "price": 1349,
-      "description": "Convertible design with top performance and portability.",
-      "specification": [
-        "14-inch display",
-        "Intel i9 processor",
-        "1024GB storage",
-        "16GB RAM",
-        "Fingerprint Sensor"
-      ],
-      "availability": true,
-      "rating": 4.4,
-      "warranty": "2 year"
-    },
-    {
-      "product_id": 10,
-      "product_title": "Anker PowerCore 20000",
-      "product_image": "https://i.ibb.co.com/b5P2kVxm/10.jpg",
-      "category": "Accessories",
-      "price": 79,
-      "description": "Massive power on the go, charge all your devices.",
-      "specification": [
-        "No display",
-        "N/A chip",
-        "20000mAh capacity",
-        "Fast charging",
-        "Water Resistant"
-      ],
-      "availability": true,
-      "rating": 4.2,
-      "warranty": "1 year"
-    },
-    
+  {
+    "product_id": 1,
+    "product_title": "Apple iPhone 15 Pro Max",
+    "product_image": "https://i.ibb.co.com/SXJQjY9x/1.jpg",
+    "category": "Iphone",
+    "price": 1299,
+    "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
+    "specification": [
+      "6.7-inch Super Retina XDR display",
+      "A17 Bionic chip",
+      "Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultrawide)",
+      "LiDAR Scanner",
+      "Up to 2TB storage"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "warranty": "2 year",
+    "brand": "Apple",
+    "tags": ["flagship", "iOS", "premium", "5G", "camera", "Apple"]
+  },
+  {
+    "product_id": 2,
+    "product_title": "Garmin Venu 2",
+    "product_image": "https://i.ibb.co.com/v6yVXqj9/11.jpg",
+    "category": "Smart Watches",
+    "price": 349,
+    "description": "Fitness tracking with AMOLED display and GPS.",
+    "specification": [
+      "5-inch display",
+      "Custom OS",
+      "32GB storage",
+      "4GB RAM",
+      "Water Resistant"
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "warranty": "2 year",
+    "brand": "Garmin",
+    "tags": ["fitness", "AMOLED", "GPS", "smartwatch", "Garmin"]
+  },
+  {
+    "product_id": 3,
+    "product_title": "Dell XPS 15",
+    "product_image": "https://i.ibb.co.com/DHs9gTJt/3.jpg",
+    "category": "Laptops",
+    "price": 1450,
+    "description": "Sleek and powerful device suitable for all tasks.",
+    "specification": [
+      "15-inch display",
+      "Intel i9 processor",
+      "1024GB storage",
+      "32GB RAM",
+      "Fingerprint Sensor"
+    ],
+    "availability": false,
+    "rating": 4.6,
+    "warranty": "3 year",
+    "brand": "Dell",
+    "tags": ["laptop", "Windows", "performance", "XPS", "Dell"]
+  },
+  {
+    "product_id": 4,
+    "product_title": "Sony WH-1000XM5 Headphones",
+    "product_image": "https://i.ibb.co.com/1fTtNWck/4.jpg",
+    "category": "Accessories",
+    "price": 399,
+    "description": "Exceptional performance and sound quality in a compact form.",
+    "specification": [
+      "7-inch display",
+      "A16 Bionic chip",
+      "512GB storage",
+      "16GB RAM",
+      "Water Resistant"
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "warranty": "1 year",
+    "brand": "Sony",
+    "tags": ["headphones", "noise-canceling", "wireless", "Sony", "audio"]
+  },
+  {
+    "product_id": 5,
+    "product_title": "Apple Watch Series 9",
+    "product_image": "https://i.ibb.co.com/SwcZDmv7/5.jpg",
+    "category": "Smart Watches",
+    "price": 599,
+    "description": "Next-generation wearable with improved battery and sensors.",
+    "specification": [
+      "6-inch display",
+      "M2 chip",
+      "256GB storage",
+      "8GB RAM",
+      "Face ID"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "warranty": "2 year",
+    "brand": "Apple",
+    "tags": ["smartwatch", "iOS", "health", "fitness", "Apple"]
+  },
+  {
+    "product_id": 6,
+    "product_title": "MacBook Pro 16 M3",
+    "product_image": "https://i.ibb.co.com/gMFjrK4S/6.jpg",
+    "category": "MacBook",
+    "price": 1899,
+    "description": "Perfect combination of power, portability, and performance.",
+    "specification": [
+      "16-inch display",
+      "M2 chip",
+      "2048GB storage",
+      "64GB RAM",
+      "Face ID"
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "warranty": "3 year",
+    "brand": "Apple",
+    "tags": ["laptop", "macOS", "performance", "creative", "Apple"]
+  },
+  {
+    "product_id": 7,
+    "product_title": "iPhone 14",
+    "product_image": "https://i.ibb.co.com/ccQGTfs5/7.jpg",
+    "category": "Iphone",
+    "price": 999,
+    "description": "Premium build and camera with all-day battery life.",
+    "specification": [
+      "6.1-inch display",
+      "A16 Bionic chip",
+      "512GB storage",
+      "8GB RAM",
+      "Face ID"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "warranty": "2 year",
+    "brand": "Apple",
+    "tags": ["smartphone", "iOS", "camera", "5G", "Apple"]
+  },
+  {
+    "product_id": 8,
+    "product_title": "Google Pixel 8 Pro",
+    "product_image": "https://i.ibb.co.com/Xkkx0xfP/8.jpg",
+    "category": "Phones",
+    "price": 899,
+    "description": "A high-end device packed with features for professionals.",
+    "specification": [
+      "6.8-inch display",
+      "A17 Bionic chip",
+      "1024GB storage",
+      "16GB RAM",
+      "Water Resistant"
+    ],
+    "availability": true,
+    "rating": 4.3,
+    "warranty": "1 year",
+    "brand": "Google",
+    "tags": ["smartphone", "Android", "camera", "5G", "Google"]
+  },
+  {
+    "product_id": 9,
+    "product_title": "HP Spectre x360",
+    "product_image": "https://i.ibb.co.com/XZrDnMVH/9.jpg",
+    "category": "Laptops",
+    "price": 1349,
+    "description": "Convertible design with top performance and portability.",
+    "specification": [
+      "14-inch display",
+      "Intel i9 processor",
+      "1024GB storage",
+      "16GB RAM",
+      "Fingerprint Sensor"
+    ],
+    "availability": true,
+    "rating": 4.4,
+    "warranty": "2 year",
+    "brand": "HP",
+    "tags": ["laptop", "Windows", "convertible", "touchscreen", "HP"]
+  },
+  {
+    "product_id": 10,
+    "product_title": "Anker PowerCore 20000",
+    "product_image": "https://i.ibb.co.com/b5P2kVxm/10.jpg",
+    "category": "Accessories",
+    "price": 79,
+    "description": "Massive power on the go, charge all your devices.",
+    "specification": [
+      "No display",
+      "N/A chip",
+      "20000mAh capacity",
+      "Fast charging",
+      "Water Resistant"
+    ],
+    "availability": true,
+    "rating": 4.2,
+    "warranty": "1 year",
+    "brand": "Anker",
+    "tags": ["power bank", "portable", "charging", "Anker", "accessory"]
+  },
+  {
+    "product_id": 11,
+    "product_title": "Samsung Galaxy S24 Ultra",
+    "product_image": "https://i.ibb.co.com/ht7S7pL/2.jpg",
+    "category": "Phones",
+    "price": 667,
+    "description": "Next-generation wearable with improved battery and sensors.",
+    "specification": [
+      "9-inch display",
+      "A16 Bionic chip",
+      "1270GB storage",
+      "42GB RAM",
+      "Face ID"
+    ],
+    "availability": true,
+    "rating": 5.0,
+    "warranty": "1 year",
+    "brand": "Samsung",
+    "tags": ["smartphone", "Android", "flagship", "5G", "Samsung"]
+  },
+  {
+    "product_id": 12,
+    "product_title": "iPhone SE 2024",
+    "product_image": "https://i.ibb.co.com/C51h61Qk/12.jpg",
+    "category": "Iphone",
+    "price": 599,
+    "description": "Compact and powerful with modern performance.",
+    "specification": [
+      "4.7-inch display",
+      "A16 Bionic chip",
+      "256GB storage",
+      "6GB RAM",
+      "Fingerprint Sensor"
+    ],
+    "availability": true,
+    "rating": 4.1,
+    "warranty": "1 year",
+    "brand": "Apple",
+    "tags": ["smartphone", "iOS", "compact", "budget", "Apple"]
+  },
+  {
+    "product_id": 13,
+    "product_title": "MacBook Air M2",
+    "product_image": "https://i.ibb.co.com/BHwKzYcj/13.jpg",
+    "category": "MacBook",
+    "price": 1099,
+    "description": "Ultralight laptop with great battery and display.",
+    "specification": [
+      "13-inch display",
+      "M2 chip",
+      "512GB storage",
+      "16GB RAM",
+      "Face ID"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "warranty": "2 year",
+    "brand": "Apple",
+    "tags": ["laptop", "macOS", "portable", "battery life","Apple"]
+  },
+  {
+    "product_id": 14,
+    "product_title": "Samsung Galaxy Buds 2",
+    "product_image": "https://i.ibb.co.com/h1XRV24p/14.jpg",
+    "category": "Accessories",
+    "price": 149,
+    "description": "Wireless earbuds with great sound and battery life.",
+    "specification": [
+      "No display",
+      "N/A chip",
+      "32GB internal memory",
+      "5-hour battery life",
+      "Water Resistant"
+    ],
+    "availability": false,
+    "rating": 4.3,
+    "warranty": "1 year",
+    "brand": "Samsung",
+    "tags": ["wireless", "audio", "Bluetooth", "earbuds", "Samsung"]
+  },
+  {
+    "product_id": 15,
+    "product_title": "Fossil Gen 6 Smartwatch",
+    "product_image": "https://i.ibb.co.com/9khTW7Hn/15.jpg",
+    "category": "Smart Watches",
+    "price": 299,
+    "description": "Stylish smartwatch with fitness tracking and Google Wear OS.",
+    "specification": [
+      "1.4-inch AMOLED display",
+      "Snapdragon Wear processor",
+      "16GB storage",
+      "1GB RAM",
+      "Water Resistant"
+    ],
+    "availability": true,
+    "rating": 4.4,
+    "warranty": "2 year",
+    "brand": "Fossil",
+    "tags": ["smartwatch", "fitness", "Wear OS", "Fossil", "Bluetooth"]
+  },
+  {
+    "product_id": 16,
+    "product_title": "Lenovo ThinkPad X1 Carbon Gen 11",
+    "product_image": "https://i.ibb.co.com/s94cyh1v/16.jpg",
+    "category": "Laptops",
+    "price": 1699,
+    "description": "Ultralight business laptop with premium build and performance.",
+    "specification": [
+      "14-inch UHD display",
+      "Intel i7 13th Gen",
+      "1024GB SSD",
+      "32GB RAM",
+      "Fingerprint Sensor"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "warranty": "3 year",
+    "brand": "Lenovo",
+    "tags": ["business", "ultrabook", "Intel", "Lenovo", "ThinkPad"]
+  },
+  {
+    "product_id": 17,
+    "product_title": "ASUS ROG Zephyrus G14",
+    "product_image": "https://i.ibb.co.com/Cpn6QYv9/17.jpg",
+    "category": "Laptops",
+    "price": 1799,
+    "description": "Compact gaming laptop with powerful Ryzen processor and RTX GPU.",
+    "specification": [
+      "14-inch QHD display",
+      "AMD Ryzen 9",
+      "1000GB SSD",
+      "32GB RAM",
+      "Backlit Keyboard"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "warranty": "2 year",
+    "brand": "ASUS",
+    "tags": ["gaming", "Ryzen", "RTX", "ASUS", "Zephyrus"]
+  },
+  {
+    "product_id": 18,
+    "product_title": "Acer Swift X",
+    "product_image": "https://i.ibb.co.com/67WWmdhc/18.jpg",
+    "category": "Laptops",
+    "price": 1099,
+    "description": "Portable laptop with dedicated GPU for creators.",
+    "specification": [
+      "14-inch FHD display",
+      "Intel i7 12th Gen",
+      "512GB SSD",
+      "16GB RAM",
+      "NVIDIA RTX 3050"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "warranty": "2 year",
+    "brand": "Acer",
+    "tags": ["creator", "portable", "Intel", "Acer", "RTX"]
+  },
+  {
+    "product_id": 19,
+    "product_title": "Microsoft Surface Laptop 5",
+    "product_image": "https://i.ibb.co.com/JFxxnjy1/19.jpg",
+    "category": "Laptops",
+    "price": 1299,
+    "description": "Elegant and lightweight laptop built for everyday productivity.",
+    "specification": [
+      "13.5-inch PixelSense display",
+      "Intel i5 12th Gen",
+      "512GB SSD",
+      "16GB RAM",
+      "Touchscreen"
+    ],
+    "availability": true,
+    "rating": 4.4,
+    "warranty": "2 year",
+    "brand": "Microsoft",
+    "tags": ["productivity", "lightweight", "touchscreen", "Microsoft", "Surface"]
+  },
+  {
+    "product_id": 20,
+    "product_title": "Razer Blade 16",
+    "product_image": "https://i.ibb.co.com/FdwDQBx/Razer-anuncia-laptops-Blade-18-e-Blade-16-2024-com-monitor-OLED.jpg",
+    "category": "Laptops",
+    "price": 2599,
+    "description": "High-performance gaming laptop with immersive display.",
+    "specification": [
+      "16-inch UHD+ display",
+      "Intel i9 13th Gen",
+      "2000GB SSD",
+      "32GB RAM",
+      "NVIDIA RTX 4080"
+    ],
+    "availability": false,
+    "rating": 4.9,
+    "warranty": "3 year",
+    "brand": "Razer",
+    "tags": ["gaming", "high-performance", "RTX 4080", "Intel","Razer"]
+  },
+  {
+    "product_id": 21,
+    "product_title": "OnePlus 12",
+    "product_image": "https://i.ibb.co.com/PG8ywhWW/21.jpg",
+    "category": "Phones",
+    "price": 899,
+    "description": "Flagship performance with Hasselblad camera and Snapdragon 8 Gen 3.",
+    "specification": [
+      "6.82-inch AMOLED 120Hz display",
+      "Snapdragon 8 Gen 3",
+      "50MP + 64MP + 48MP triple camera",
+      "5000mAh battery with 100W SuperVOOC",
+      "Up to 512GB storage"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "warranty": "2 year",
+    "brand": "OnePlus",
+    "tags": [
+      "Android",
+      "flagship",
+      "fast charging",
+      "camera"
+    ]
+  },
+  {
+    "product_id": 22,
+    "product_title": "Beats Fit Pro",
+    "product_image": "https://i.ibb.co.com/Vp990xhF/22.jpg",
+    "category": "Accessories",
+    "price": 199,
+    "description": "Comfortable noise-cancelling earbuds with the Apple H1 chip.",
+    "specification": [
+      "Active Noise Cancelling",
+      "Apple H1 chip",
+      "IPX4 sweat and water resistant",
+      "6 hours listening time",
+      "Spatial Audio support"
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "warranty": "1 year",
+    "brand": "Beats",
+    "tags": [
+      "earbuds",
+      "wireless",
+      "Apple",
+      "noise cancelling"
+    ]
+  },
+  {
+    "product_id": 23,
+    "product_title": "Apple Magic Keyboard",
+    "product_image": "https://i.ibb.co.com/wFmZ4bRx/23.jpg",
+    "category": "Accessories",
+    "price": 99,
+    "description": "Wireless and rechargeable keyboard with a sleek, minimalist design.",
+    "specification": [
+      "Rechargeable battery",
+      "Bluetooth connectivity",
+      "Low profile keys",
+      "Compact layout",
+      "USB-C to Lightning cable included"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "warranty": "1 year",
+    "brand": "Apple",
+    "tags": [
+      "keyboard",
+      "Apple",
+      "wireless",
+      "accessory"
+    ]
+  },
+  {
+    "product_id": 24,
+    "product_title": "Google Pixel Watch 2",
+    "product_image": "https://i.ibb.co.com/1GcDcBHy/24.jpg",
+    "category": "Smart Watches",
+    "price": 349,
+    "description": "A seamless Wear OS smartwatch with Fitbit health tracking.",
+    "specification": [
+      "1.2-inch AMOLED display",
+      "Wear OS by Google",
+      "Fitbit integration",
+      "Heart rate and SpO2 sensors",
+      "24-hour battery life"
+    ],
+    "availability": true,
+    "rating": 4.4,
+    "warranty": "1 year",
+    "brand": "Google",
+    "tags": [
+      "smartwatch",
+      "Wear OS",
+      "health tracking",
+      "Google"
+    ]
+  },
+  {
+    "product_id": 25,
+    "product_title": "Logitech MX Master 3S",
+    "product_image": "https://i.ibb.co.com/S4tVZ8bX/25.jpg",
+    "category": "Accessories",
+    "price": 99,
+    "description": "Advanced wireless mouse for precision and comfort.",
+    "specification": [
+      "MagSpeed Electromagnetic scrolling",
+      "8000 DPI sensor",
+      "Silent Clicks",
+      "USB-C rechargeable",
+      "Multi-device control"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "warranty": "1 year",
+    "brand": "Logitech",
+    "tags": [
+      "mouse",
+      "wireless",
+      "productivity",
+      "ergonomic"
+    ]
+  },
+  {
+    "product_id": 26,
+    "product_title": "Samsung Galaxy Z Fold 5",
+    "product_image": "https://i.ibb.co.com/8n3DR9sc/26.jpg",
+    "category": "Phones",
+    "price": 1799,
+    "description": "Foldable phone-tablet hybrid with powerful multitasking capabilities.",
+    "specification": [
+      "7.6-inch foldable AMOLED display",
+      "Snapdragon 8 Gen 2",
+      "Triple rear cameras",
+      "4400mAh battery",
+      "Up to 1TB storage"
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "warranty": "2 year",
+    "brand": "Samsung",
+    "tags": [
+      "foldable",
+      "Android",
+      "flagship",
+      "5G"
+    ]
+  },
+  {
+    "product_id": 27,
+    "product_title": "Apple MacBook 12-inch Retina (Refurbished)",
+    "product_image": "https://i.ibb.co.com/VWPStNq8/27.jpg",
+    "category": "MacBook",
+    "price": 749,
+    "description": "Compact and lightweight refurbished MacBook with Retina display.",
+    "specification": [
+      "12-inch Retina display",
+      "Intel Core m3",
+      "256GB SSD",
+      "8GB RAM",
+      "USB-C port"
+    ],
+    "availability": true,
+    "rating": 4.2,
+    "warranty": "1 year",
+    "brand": "Apple",
+    "tags": [
+      "refurbished",
+      "macOS",
+      "lightweight",
+      "portable"
+    ]
+  },
+  {
+    "product_id": 28,
+    "product_title": "Motorola Razr+ 2024",
+    "product_image": "https://i.ibb.co.com/4nv9YDxh/28.jpg",
+    "category": "Phones",
+    "price": 999,
+    "description": "Stylish flip phone with large cover display and premium design.",
+    "specification": [
+      "6.9-inch foldable OLED main screen",
+      "3.6-inch cover display",
+      "Snapdragon 8+ Gen 1",
+      "3800mAh battery",
+      "Dual rear cameras"
+    ],
+    "availability": true,
+    "rating": 4.3,
+    "warranty": "2 year",
+    "brand": "Motorola",
+    "tags": [
+      "flip",
+      "foldable",
+      "Android",
+      "compact"
+    ]
+  },
+  {
+    "product_id": 29,
+    "product_title": "Apple AirTag 4-Pack",
+    "product_image": "https://i.ibb.co.com/pBvfw3pq/29.jpg",
+    "category": "Accessories",
+    "price": 99,
+    "description": "Easily keep track of your belongings with Apple AirTags.",
+    "specification": [
+      "Ultra Wideband technology",
+      "Find My app support",
+      "Replaceable battery",
+      "Water and dust resistant",
+      "Bluetooth LE"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "warranty": "1 year",
+    "brand": "Apple",
+    "tags": [
+      "tracker",
+      "Apple",
+      "Find My",
+      "accessory"
+    ]
+  },
+  {
+    "product_id": 30,
+    "product_title": "Huawei Watch GT 4",
+    "product_image": "https://i.ibb.co.com/8qt7sRb/30.jpg",
+    "category": "Smart Watches",
+    "price": 299,
+    "description": "Stylish smartwatch with health tracking and long battery life.",
+    "specification": [
+      "1.43-inch AMOLED display",
+      "SpO2 & heart rate monitoring",
+      "14-day battery life",
+      "Built-in GPS",
+      "Fitness tracking"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "warranty": "1 year",
+    "brand": "Huawei",
+    "tags": [
+      "smartwatch",
+      "fitness",
+      "health",
+      "long battery"
+    ]
+  },
+  {
+    "product_id": 31,
+    "product_title": "ASUS ZenBook 14 OLED",
+    "product_image": "https://i.ibb.co.com/MyqZ4jt7/31.jpg",
+    "category": "Laptops",
+    "price": 999,
+    "description": "Compact laptop with vibrant OLED display and powerful performance.",
+    "specification": [
+      "14-inch OLED display",
+      "Intel Core i7 13th Gen",
+      "16GB RAM",
+      "1TB SSD",
+      "Windows 11"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "warranty": "1 year",
+    "brand": "ASUS",
+    "tags": [
+      "OLED",
+      "Windows",
+      "laptop",
+      "portable"
+    ]
+  },
+  {
+    "product_id": 32,
+    "product_title": "iPhone 13 Mini",
+    "product_image": "https://i.ibb.co.com/hRM3s1MD/32.jpg",
+    "category": "Iphone",
+    "price": 599,
+    "description": "Compact iPhone with powerful performance and great camera.",
+    "specification": [
+      "5.4-inch Super Retina XDR display",
+      "A15 Bionic chip",
+      "Dual 12MP camera system",
+      "5G capable",
+      "Up to 512GB storage"
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "warranty": "2 year",
+    "brand": "Apple",
+    "tags": [
+      "mini",
+      "iOS",
+      "compact",
+      "5G"
+    ]
+  },
+  {
+    "product_id": 33,
+    "product_title": "MSI Creator Z17",
+    "product_image": "https://i.ibb.co.com/mrydjCfF/33.jpg",
+    "category": "Laptops",
+    "price": 2499,
+    "description": "High-performance creator laptop with touchscreen and pen support.",
+    "specification": [
+      "17-inch QHD+ touchscreen",
+      "Intel Core i9 13th Gen",
+      "RTX 4070 GPU",
+      "32GB RAM",
+      "1TB NVMe SSD"
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "warranty": "2 year",
+    "brand": "MSI",
+    "tags": [
+      "creator",
+      "RTX",
+      "touchscreen",
+      "performance"
+    ]
+  },
+  {
+    "product_id": 34,
+    "product_title": "Apple iPhone 13",
+    "product_image": "https://i.ibb.co.com/V5ydFCT/34.jpg",
+    "category": "Iphone",
+    "price": 699,
+    "description": "A balanced and reliable iPhone for all your needs.",
+    "specification": [
+      "6.1-inch Super Retina XDR display",
+      "A15 Bionic chip",
+      "Dual 12MP camera",
+      "Up to 512GB storage",
+      "5G connectivity"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "warranty": "2 year",
+    "brand": "Apple",
+    "tags": [
+      "iPhone",
+      "iOS",
+      "5G",
+      "Apple"
+    ]
+  },
+  {
+    "product_id": 35,
+    "product_title": "Amazfit GTR 4",
+    "product_image": "https://i.ibb.co.com/MDHFLW38/35.jpg",
+    "category": "Smart Watches",
+    "price": 199,
+    "description": "Sleek smartwatch with dual-band GPS and fitness tracking.",
+    "specification": [
+      "1.43-inch AMOLED display",
+      "Dual-band GPS",
+      "150+ sports modes",
+      "24-day battery life",
+      "Health monitoring"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "warranty": "1 year",
+    "brand": "Amazfit",
+    "tags": [
+      "smartwatch",
+      "fitness",
+      "GPS",
+      "battery"
+    ]
+  }
 
-
-    {
-        "product_id": 11,
-        "product_title": "Samsung Galaxy S24 Ultra",
-        "product_image": "https://i.ibb.co.com/ht7S7pL/2.jpg",
-        "category": "Phones",
-        "price": 667,
-        "description": "Next-generation wearable with improved battery and sensors.",
-        "specification": [
-          "9-inch display",
-          "A16 Bionic chip",
-          "1270GB storage",
-          "42GB RAM",
-          "Face ID"
-        ],
-        "availability": true,
-        "rating": 5.0,
-        "warranty": "1 year"
-      },
-
-
-
-    
-    {
-      "product_id": 12,
-      "product_title": "iPhone SE 2024",
-      "product_image": "https://i.ibb.co.com/C51h61Qk/12.jpg",
-      "category": "iPhone",
-      "price": 599,
-      "description": "Compact and powerful with modern performance.",
-      "specification": [
-        "4.7-inch display",
-        "A16 Bionic chip",
-        "256GB storage",
-        "6GB RAM",
-        "Fingerprint Sensor"
-      ],
-      "availability": true,
-      "rating": 4.1,
-      "warranty": "1 year"
-    },
-    {
-      "product_id": 13,
-      "product_title": "MacBook Air M2",
-      "product_image": "https://i.ibb.co.com/BHwKzYcj/13.jpg",
-      "category": "MacBook",
-      "price": 1099,
-      "description": "Ultralight laptop with great battery and display.",
-      "specification": [
-        "13-inch display",
-        "M2 chip",
-        "512GB storage",
-        "16GB RAM",
-        "Face ID"
-      ],
-      "availability": true,
-      "rating": 4.7,
-      "warranty": "2 year"
-    },
-    {
-      "product_id": 14,
-      "product_title": "Samsung Galaxy Buds 2",
-      "product_image": "https://i.ibb.co.com/h1XRV24p/14.jpg",
-      "category": "Accessories",
-      "price": 149,
-      "description": "Wireless earbuds with great sound and battery life.",
-      "specification": [
-        "No display",
-        "N/A chip",
-        "32GB internal memory",
-        "5-hour battery life",
-        "Water Resistant"
-      ],
-      "availability": false,
-      "rating": 4.3,
-      "warranty": "1 year"
-    },
-    {
-      "product_id": 15,
-      "product_title": "Fossil Gen 6 Smartwatch",
-      "product_image": "https://i.ibb.co.com/9khTW7Hn/15.jpg",
-      "category": "Smart Watches",
-      "price": 299,
-      "description": "Stylish smartwatch with fitness tracking and Google Wear OS.",
-      "specification": [
-        "1.4-inch AMOLED display",
-        "Snapdragon Wear processor",
-        "16GB storage",
-        "1GB RAM",
-        "Water Resistant"
-      ],
-      "availability": true,
-      "rating": 4.4,
-      "warranty": "2 year"
-    },
-      {
-        "product_id": 16,
-        "product_title": "Lenovo ThinkPad X1 Carbon Gen 11",
-        "product_image": "https://i.ibb.co.com/s94cyh1v/16.jpg",
-        "category": "Laptops",
-        "price": 1699,
-        "description": "Ultralight business laptop with premium build and performance.",
-        "specification": [
-          "14-inch UHD display",
-          "Intel i7 13th Gen",
-          "1024GB SSD",
-          "32GB RAM",
-          "Fingerprint Sensor"
-        ],
-        "availability": true,
-        "rating": 4.7,
-        "warranty": "3 year"
-      },
-      {
-        "product_id": 17,
-        "product_title": "ASUS ROG Zephyrus G14",
-        "product_image": "https://i.ibb.co.com/Cpn6QYv9/17.jpg",
-        "category": "Laptops",
-        "price": 1799,
-        "description": "Compact gaming laptop with powerful Ryzen processor and RTX GPU.",
-        "specification": [
-          "14-inch QHD display",
-          "AMD Ryzen 9",
-          "1000GB SSD",
-          "32GB RAM",
-          "Backlit Keyboard"
-        ],
-        "availability": true,
-        "rating": 4.8,
-        "warranty": "2 year"
-      },
-      {
-        "product_id": 18,
-        "product_title": "Acer Swift X",
-        "product_image": "https://i.ibb.co.com/67WWmdhc/18.jpg",
-        "category": "Laptops",
-        "price": 1099,
-        "description": "Portable laptop with dedicated GPU for creators.",
-        "specification": [
-          "14-inch FHD display",
-          "Intel i7 12th Gen",
-          "512GB SSD",
-          "16GB RAM",
-          "NVIDIA RTX 3050"
-        ],
-        "availability": true,
-        "rating": 4.5,
-        "warranty": "2 year"
-      },
-      {
-        "product_id": 19,
-        "product_title": "Microsoft Surface Laptop 5",
-        "product_image": "https://i.ibb.co.com/JFxxnjy1/19.jpg",
-        "category": "Laptops",
-        "price": 1299,
-        "description": "Elegant and lightweight laptop built for everyday productivity.",
-        "specification": [
-          "13.5-inch PixelSense display",
-          "Intel i5 12th Gen",
-          "512GB SSD",
-          "16GB RAM",
-          "Touchscreen"
-        ],
-        "availability": true,
-        "rating": 4.4,
-        "warranty": "2 year"
-      },
-      {
-        "product_id": 20,
-        "product_title": "Razer Blade 16",
-        "product_image": "https://i.ibb.co.com/FdwDQBx/Razer-anuncia-laptops-Blade-18-e-Blade-16-2024-com-monitor-OLED.jpg",
-        "category": "Laptops",
-        "price": 2599,
-        "description": "High-performance gaming laptop with immersive display.",
-        "specification": [
-          "16-inch UHD+ display",
-          "Intel i9 13th Gen",
-          "2000GB SSD",
-          "32GB RAM",
-          "NVIDIA RTX 4080"
-        ],
-        "availability": false,
-        "rating": 4.9,
-        "warranty": "3 year"
-      }
-    
-  ]
-  
+]
